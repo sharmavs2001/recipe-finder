@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+.recipe-content {
+  margin: 0 1%;
+}
+
+.recipe-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px 5px;
+  
+}
+
+.food-title {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(107, 69, 107);
+  font-size: 20px;
+   font-weight:800;
+  text-align: center;
+  margin: 1px 0;
+  border: 0;
+  background-color: blanchedalmond !important;
+}
+
+.food-img {
+  height: 380px;
+  width: 400px;
+  border: 3px solid black;
+  margin: 10px 100px;
+ 
+}
+
+.recipe-ingredients{
+font-weight: 500;
+font-size: 17px;
+}
+
+
+.all-ingredients {
+  height: 250px;
+  overflow:  hidden scroll;
+  padding: 5px 30px;
+  background-color:#d3d0c1;
+  margin: 2px 1px 10px;
+  list-style-type: none;
+
+
+}
+li{
+  margin: 15px 10px;
+}
+
+
+#font-ico{
+font-size: 30px;
+color: black;
+float: right;
+position: relative;
+top:13px;
+right: 10px;
+
+}
+
+#font-ico:hover{
+  cursor: pointer;
+}
+
+.full-recipe {
+  height: 250px;
+  width:105%;
+  overflow:  auto;
+  background-color:#d3d0c1;
+  padding: 10px 15px;
+  text-align: center;
+  position: relative;
+  right: 30px;
+}
+
+.noData {
+  text-align: center;
+}
+
+#rec{
+  font-style: italic;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px){
+  
+  .food-img {
+    height: 50%;
+    width: 50%;
+    margin: 10px 10% ;
+  }
+  
+  }
